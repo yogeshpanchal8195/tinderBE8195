@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-     "start": "node --experimental-modules src/index.mjs "
+    "start": "node --experimental-modules src/index.mjs "
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "mongoose": "^5.10.6"
+    "mongoose": "^5.10.6",
+    "nodemon": "^2.0.4"
   }
 }
